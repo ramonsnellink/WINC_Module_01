@@ -6,7 +6,8 @@ body {
 }
 
 nav,
-main footer,
+main,
+footer,
 a,
 p,
 h1,
@@ -17,7 +18,13 @@ section {
 nav {
   background-color: lightcoral;
 }
+nav ul {
+  list-style: none;
+}
 
+nav ul li {
+  display: inline;
+}
 footer {
   color: pink;
   text-align: center;
@@ -26,7 +33,9 @@ footer {
 }
 
 main {
-  padding: 0px 30px;
+  width: 50%;
+  padding: 0 50px;
+  margin: 0 auto;
 }
 
 a {
