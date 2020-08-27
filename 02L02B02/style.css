@@ -1,0 +1,47 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: lightgoldenrodyellow;
+  font-size: 18px;
+  margin: 0;
+}
+
+nav,
+main footer,
+a,
+p,
+h1,
+section {
+  border: 1px solid red;
+}
+
+nav {
+  background-color: lightcoral;
+}
+
+footer {
+  color: pink;
+  text-align: center;
+  border-top: 1px solid grey;
+  margin-top: 20px;
+}
+
+main {
+  padding: 0px 30px;
+}
+
+a {
+  color: black;
+}
+
+h1 {
+  font-size: 3rem;
+  background: white;
+}
+
+.over-mij-img {
+  width: 100%;
+}
+
+.center {
+  text-align: center;
+}
