@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+
+    <title>Opdracht: CSS Basics</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="about.html">Over Mij</a>
+          </li>
+          <li>
+            <a href="blog.html">Contact</a>
+          </li>
+          <li>
+            <a href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <h1 class="center">Contact</h1>
+    </header>
+    <main>
+      <form name="contact" method="POST" data-netlify="true">
+        <p>
+          <label for="name">Naam</label>
+          <input type="text" name="name" id="name" />
+        </p>
+
+        <p>
+          <label for="email">E-mail</label>
+          <input type="email" name="email" id="email" />
+        </p>
+        <p>
+          <label for="telephone">Telefoon</label>
+          <input type="tel" name="telephone" id="telephone" />
+        </p>
+        <p>
+          <label for="age">Leeftijd</label>
+          <input type="number" name="age" id="age" />
+        </p>
+        <p>
+          <label for="birthdate">Geboortedatum</label>
+          <input type="date" name="birthdate" id="birthdate" />
+        </p>
+        <p>
+          <label for="male">Man</label>
+          <input type="radio" name="gender" id="male" value="male" />
+          <label for="female">Vrouw</label>
+          <input type="radio" name="gender" id="female" value="male" />
+        </p>
+        <p>
+          Cuisine:
+          <label for="frans">Frans</label>
+          <input type="checkbox" name="cuisine" id="frans" value="frans" />
+          <label for="frans">Italiaans</label>
+          <input type="checkbox" name="cuisine" id="italiaans" value="italiaans" />
+          <label for="frans">Spaans</label>
+          <input type="checkbox" name="cuisine" id="spaans" value="spaans" />
+          <label for="Arabisch">Spaans</label>
+          <input type="checkbox" name="cuisine" id="arabisch" value="arabisch" />
+        </p>
+        <label for="shortkleur">Favoriete short kleur</label>
+        <input type="color" name="shortkleur" id="shortkleur" />
+        <p></p>
+        <p>
+          <label for="biografie">Biografie</label>
+          <textarea name="biografie" id="biografie" cols="30" rows="10"></textarea>
+        </p>
+
+        <p>
+          <label for="recept"></label>
+          <input type="file" name="recept" id="recept" />
+        </p>
+
+        <p>
+          <label for="website">Website</label>
+          <input type="url" name="website" id="website" />
+        </p>
+        <p>
+          <button type="reset">Reset</button>
+          <button type="submit">Send</button>
+        </p>
+      </form>
+    </main>
+    <footer>Copyright 2020</footer>
+  </body>
+</html>
