@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+
+    <title>Opdracht: CSS Basics</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="about.html">Over Mij</a>
+          </li>
+          <li>
+            <a href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <h1 class="center">Contact</h1>
+    </header>
+    <main>
+      <form name="contact" method="POST" data-netlify="true">
+        <label for="name">Naam</label>
+        <input type="text" name="name" id="name" />
+        <label for="email">E-mail</label>
+        <input type="email" name="email" id="email" />
+        <label for="tekstveld">Vertel me meer!</label>
+        <textarea name="tekstveld" id="tekstveld" cols="30" rows="10"></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </main>
+    <footer>Copyright 2020</footer>
+  </body>
+</html>
